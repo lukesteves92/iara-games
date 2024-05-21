@@ -1,0 +1,26 @@
+body, header, footer {
+    background-color: #383838; 
+    color: #ffffff; 
+}
+
+.navbar, .navbar-brand, .navbar-toggler {
+    background-color: #383838; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.imagem-lateral {
+    max-width: 350px; 
+    width: 100%; 
+}
+
+.card-custom {
+    height: 100%;
+}
+
+.card-img-custom {
+    height: 200px;
+    object-fit: cover;
+}
