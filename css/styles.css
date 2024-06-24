@@ -11,6 +11,16 @@ body, header, footer {
     color: #ffffff;
 }
 
+/* Centralizar texto na barra de navegação */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 15px; /* Espaçamento horizontal entre os links */
+}
+
 .imagem-lateral {
     max-width: 350px; 
     width: 100%; 
@@ -23,4 +33,26 @@ body, header, footer {
 .card-img-custom {
     height: 200px;
     object-fit: cover;
+}
+
+/* Estilos para o card de geolocalização */
+#location-card {
+    margin: 0 auto 20px auto; /* Centraliza o card horizontalmente e adiciona espaço na parte inferior */
+    max-width: 400px; /* Define a largura máxima do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #4b4b4b; /* Cor de fundo do card */
+    color: #ffffff; /* Cor do texto do card */
+}
+
+#location-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+#location {
+    font-size: 1.25rem;
+}
+
+.card-body {
+    padding: 15px;
 }
